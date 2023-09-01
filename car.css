@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/11/22/ferrari-laferrari-2013-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 100px;
+    color: black;
+    font-size: 75px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+img {
+    border: 10px solid darkgoldenrod;
+    width: 500px;
+    border-radius: 10px;
+}  
+
+.huracan {
+    color: aqua;
+}
+
+.bugatti {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centenario {
+    color: yellow;
+}
+
+.devel {
+    color: grey;
+}
+
+.Mclaren {
+    color: lightskyblue;
+}

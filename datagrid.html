@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Double Sort (Multiple Column Ordering)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- DataGrid library CSS -->
+        <link href="datagrid.min.css" rel="stylesheet" />
+
+        <!-- Demo page CSS -->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <input
+        type="text"
+        placeholder="Filter by first name"
+        class="form-control mr-2"
+        data-grid-control="text-filter"
+        data-path=".first-name"
+        data-direction="desc"
+        />
+        <table class="demo-table">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody data-grid>
+                <tr data-grid-item>
+                    <td class="first-name">Wendye</td>
+                    <td class="last-name">Lightwing</td>
+                    <td class="age">24</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Milena</td>
+                    <td class="last-name">Torre</td>
+                    <td class="age">82</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Erinn</td>
+                    <td class="last-name">Hills</td>
+                    <td class="age">81</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Yoshiko</td>
+                    <td class="last-name">Smithson</td>
+                    <td class="age">62</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Umberto</td>
+                    <td class="last-name">McFadden</td>
+                    <td class="age">93</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Donaugh</td>
+                    <td class="last-name-name">Huban</td>
+                    <td class="age">75</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Cami</td>
+                    <td class="last-name">Pickthorn</td>
+                    <td class="age">45</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Alistair</td>
+                    <td class="last-name">Reddell</td>
+                    <td class="age">55</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Genia</td>
+                    <td class="last-name">Crawshay</td>
+                    <td class="age">60</td>
+                </tr>
+                <tr data-grid-item>
+                    <td class="first-name">Allyn</td>
+                    <td class="last-name">Liell</td>
+                    <td class="age">37</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- DataGrid library JavaScript -->
+        <script src="datagrid.min.js"></script>
+
+        <script>
+            datagrid();
+        </script>
+    </body>
+</html>
